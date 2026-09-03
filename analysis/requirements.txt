@@ -1,0 +1,18 @@
+# Analysis pipeline for the auditory pupil frequency-tagging manuscript.
+# Tested with CPython 3.14.6 (Homebrew).
+#
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Scripts covered: 00_build_dataset.py,
+#                  01_plot_figure2_psychometric.py,
+#                  02_plot_figure3_condition_timecourse_auc.py,
+#                  03_plot_figure4_main_prediction.py
+#                  (+ config.py)
+
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.16.3
+matplotlib==3.11.1
+pyarrow==24.0.0   # parquet engine for pandas.read_parquet (pupil_long.parquet)

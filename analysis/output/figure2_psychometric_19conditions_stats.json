@@ -1,0 +1,35 @@
+{
+  "nineteen_conditions": {
+    "include_high_frequency": true,
+    "main_conditions": 16,
+    "1000": {
+      "pse_db_spl": 13.87924713905746
+    },
+    "4000": {
+      "pse_db_spl": 3.347754035005276
+    },
+    "high_frequency_conditions": [
+      {
+        "freq_hz": 16000,
+        "spl_db_cal": 58.9,
+        "accuracy": 0.11764705882352941,
+        "sem": 0.08054743492723031,
+        "n_subjects": 17
+      },
+      {
+        "freq_hz": 18000,
+        "spl_db_cal": 58.9,
+        "accuracy": 0.0,
+        "sem": 0.0,
+        "n_subjects": 17
+      },
+      {
+        "freq_hz": 20000,
+        "spl_db_cal": 58.9,
+        "accuracy": 0.0,
+        "sem": 0.0,
+        "n_subjects": 17
+      }
+    ]
+  }
+}
