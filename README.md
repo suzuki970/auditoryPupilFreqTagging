@@ -25,7 +25,7 @@ auditoryPupilFreqTagging/
     ├── requirements.txt
     └── README.md            analysis pipeline details
 ```
-### Reproducibility notes
+
 ## Pre-processing
 
 `parseData.py` reads each subject's six `.asc` EyeLink sessions from `rawData/sNN/`, and for every trial:
