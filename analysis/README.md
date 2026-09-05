@@ -75,9 +75,3 @@ These figures use all 19 stimulus conditions (the 16 SPL-varying
 conditions from the 1,000- and 4,000-Hz bands plus the three
 high-frequency conditions `condition_spl = 17, 18, 19` at
 16,000/18,000/20,000 Hz).
-
-## `old/`
-
-Superseded scripts from earlier iterations of the pipeline (behavior
-summary, 16-condition figure variants, split-half, LMM, `run_all.py`).
-Kept for reference; not part of the manuscript figure workflow.
